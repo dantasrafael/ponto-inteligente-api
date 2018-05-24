@@ -27,9 +27,7 @@ public class Response<T> {
 	}
 
 	public void setErrors(List<String> poErrors) {
-		if (poErrors != null) {
 			this.errors = poErrors;
-		}			
 	}
 
 }
