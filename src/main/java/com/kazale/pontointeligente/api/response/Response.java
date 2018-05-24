@@ -26,8 +26,10 @@ public class Response<T> {
 		return errors;
 	}
 
-	public void setErrors(List<String> errors) {
-		this.errors = errors;
+	public void setErrors(List<String> poErrors) {
+		if (poErros != null) {
+			this.errors = errors;
+		}			
 	}
 
 }
